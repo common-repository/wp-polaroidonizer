@@ -1,0 +1,65 @@
+body, td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+body {
+	margin: 0;
+	background: #ffffff;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.dc {
+	margin: 0;
+	padding: 5px 0;
+	font-size: 9px;
+	color: #666666;
+}
+
+form {
+	margin: 0;
+}
+
+input[type=text] {
+	margin: 2px 0 0 0;
+	padding: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input[type=submit] {
+	margin: 0 0 5px;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.errmsg {
+	padding-left: 10px;
+	background: transparent url("images/arrow.gif") no-repeat left center;
+	color: #ff0000;
+}
